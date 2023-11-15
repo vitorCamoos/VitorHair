@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--FIM-->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="https://kit.fontawesome.com/f1e7ea2e0e.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="image/code.png" type="image/x-icon"><style>
+        .whatsapp-link {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 1px 1px 2px #888;
+        z-index: 1000;
+        }
+        .fa-whatsapp {
+        margin-top: 16px;
+        }
+        </style>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    
+  />
+    <title>Portfolio website</title>
+</head>
+<body>
+    <div class="content">
+        <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5511982504835"
+    target="_blank">
+    <i class="fa fa-whatsapp"></i>
+    </a>
+        <header class="header">
+        <div class="container" >
+                <nav>
+                    <ul id="sidemenu">
+                        <li ><a href="#about">Sobre <i style="color: #BC7046;" class="fa-solid fa-house"></i></a></li>
+                        <li><a href="#services">Meus Serviços <i style="color: #BC7046;" class="fa-solid fa-scissors"></i></a></li>
+                        <li><a href="#portfolio">Meu Trabalho <i style="color: #BC7046;" class="fa-solid fa-heart"></i></a></li>
+                       <span style="color: #BC7046;"><i class="fas fa-times" onclick="closemenu()"></i></span> 
+                   
+                  </ul> <i style="color: #BC7046;" id="psn" class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
+            </div>
+                      <div class="logo "> 
+                          <a href="#">
+                              <img src="" style="width: 150px; border-radius: 50%; margin-bottom: -100%; margin-left: auto; margin-right: auto; display: flex;  justify-content: center; align-items: center;  position: relative">
+                          </a>                   
+                      </div> <!--LOGO-->
+               
+        <div class="header-text">
+            <p>Vitor Campos <i style="color: #BC7046;"  class="fa-solid fa-scissors"></i></p>   
+            Cabeleireiro ! <span></span> 
+        </div>
+    </div>
+    <section class="slider">
+        <div class="slider-content">
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+            <input type="radio" name="btn-radio" id="radio4">
+
+            <div class="slider-box primeiro" >
+                <img class="img-desktop" src="img/desktop/desktop1.png" alt="slide 1">
+                <img class="img-mobile"  src="image/29783CB2-0A02-4E74-B604-B7ADE8BA20ED.JPG" width="400px"  alt="slide 1">
+            </div>
+            <div class="slider-box">
+                <img class="img-desktop" src="img/desktop/desktop2.png" alt="slide 1">
+                <img class="img-mobile"  src="image/Joyce.png" width="400px" >
+            </div>
+            <div class="slider-box">
+                <img class="img-desktop" src="img/desktop/desktop3.png" alt="slide 1">
+                <img class="img-mobile"  src="image/Kleber.png" width="400px" >
+            </div>
+            <div class="slider-box">
+                <img class="img-desktop" src="img/desktop/desktop1.png" alt="slide 1">
+                <img class="img-mobile"  src="image/Daniel.png" width="400px" >
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+ 
+
+    <!-----------------about------------------->
+    </div>
+    <section id="about">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/Logomarca.png" alt="photo">
+                </div>
+                <div class="about-col-2" style="text-align: center; font-family: 'Poppins'; font-size: 18px;" >
+                    <h1 class="sub-title" style="text-align: center;">Sobre <span style="color: #BC7046">mim</span></h1>
+                    <p>Na <span style="color: #BC7046;">DL Studio</span>, Me destaco não apenas pela sua destreza técnica, mas também pelo seu <span style="color: #BC7046;">comprometimento</span> em entender as necessidades e desejos individuais de cada cliente.Especialista em criar cortes modernos, estilos versáteis e colorações que refletem a personalidade única de cada pessoa que procura seus serviços. <br>  <br>
+
+                        Além da habilidade técnica, cultivo um ambiente acolhedor e <span style="color: #BC7046;">amigável</span> em sua estação de trabalho. A atenção aos detalhes e a capacidade de ouvir fazem com que cada cliente se sinta valorizado e compreendido. O meu compromisso em manter-se atualizado com as últimas tendências e técnicas de beleza garante que os clientes saiam da DL Studio não apenas satisfeitos, mas também inspirados pela sua própria beleza única. <br> <br>
+                        
+                        Seja para um corte elegante, uma coloração vibrante ou um penteado que reflete sua <span style="color: #BC7046;">personalidade</span>, Sou um profissional que irá superar suas expectativas. Agende uma consulta hoje e descubra como pode elevar seu estilo capilar a novas alturas, proporcionando uma experiência única e personalizada.<p>
+                     
+                                           
+                       
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+ <!----------------services-------------------->
+ <section id="services">
+    <div class="container">
+            <h1 class="sub-title">Meus <span style="color: #BC7046;">serviços</span></h1> 
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-scissors"></i>
+                    <h2>Corte de Cabelo</h2>
+                    <p>Cortes modernos e clássicos para homens, mulheres e crianças.
+                        Técnicas de corte personalizadas para atender ao formato do rosto e estilo de vida do cliente.</p>
+                    <a href="https://github.com/vitorCamoos/JavaScript" target="_blank" >Mais Sobre</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-droplet"></i>
+                    <h2>Coloração</h2>
+                    <p>Aplicação de tinturas para mudar a cor do cabelo.
+                        Realce de mechas e reflexos para adicionar dimensão.
+                        Técnicas avançadas, como ombré e balayage.</p>
+                    <a href="https://github.com/vitorCamoos/Mobile" target="_blank">Mais Sobre</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-ruler-combined"></i>
+                    <h2>Penteado e Estilização</h2>
+                    <p>Secagem e modelagem do cabelo para ocasiões especiais.
+                        Penteado para casamentos, formaturas e eventos.
+                        Uso de ferramentas de estilização, como chapinhas e modeladores de cachos.</p>
+                    <a href="https://github.com/vitorCamoos/DotNet" target="_blank">Mais Sobre</a>
+                </div>              
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <h2>Tratamentos Capilares</h2>
+                    <p>Tratamentos de hidratação para cabelos secos e danificados.
+                        Tratamentos reconstrutores para fortalecer a fibra capilar.
+                        Tratamentos específicos para couro cabeludo, como esfoliação e massagem.</p>
+                    <a href="#">Mais Sobre</a>
+                </div>
+            </div>
+     </div>
+ </section>
+
+
+
+  <!--------------portfolio-------------------->
+  <section id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">meu<span style="color: #BC7046;"> trabalho</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/29783CB2-0A02-4E74-B604-B7ADE8BA20ED.JPG" >
+                    <div class="layer">
+                        <h3>Loira iluminada</h3>
+                        <p>O corte loira iluminada destaca-se pelos tons de loiro que adicionam luz e dimensão ao cabelo. Esses tons podem variar de mechas suaves a reflexos mais intensos, proporcionando um visual brilhante e atraente.</p>
+                        <a href=""><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/52B348CD-5F79-48D4-9C2D-BC9CD7B5799E.JPG" >
+                    <div class="layer">
+                        <h3>Loira iluminada</h3>
+                        <p>O corte loira iluminada destaca-se pelos tons de loiro que adicionam luz e dimensão ao cabelo. Esses tons podem variar de mechas suaves a reflexos mais intensos, proporcionando um visual brilhante e atraente.</p>
+                        <a href=#><i class="fa-solid fa-link"></i></a>                 
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/hair3 - Copia.JPG" >
+                    <div class="layer">
+                        <h3>Loira iluminada</h3>
+                        <p>O corte loira iluminada destaca-se pelos tons de loiro que adicionam luz e dimensão ao cabelo. Esses tons podem variar de mechas suaves a reflexos mais intensos, proporcionando um visual brilhante e atraente.</p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>                 
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+  </section>
+
+<!-----------------contato---------------->
+  <div id="contact">
+     <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contato</h1>
+                <p> <i class="fa-solid fa-paper-plane"></i>vitorcampos949@gmail.com</p>
+                <p> <i class="fa-solid fa-square-phone"></i>(11)94377-1144</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/viitorcampos._/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    
+                </div>
+               <button> <a href="#" download class="botao">Certificado <i class="fa-solid fa-check"></i></a></button>
+            </div>
+            <div class="contact-right">
+                <div class="contact-right">
+
+                    <form name="submit-to-google-sheet" onsubmit="return verificarRecaptcha();"  action="seu_script_de_processamento.php" method="post">
+                        <input type="text" name="Name" placeholder="Seu Nome" required>
+                        <input type="email" name="email" placeholder="Seu Email" required>
+                        <textarea name="Message" rows="6" placeholder="Sua mensagem"></textarea>
+                        <button type="submit" class="btn btn2">Enviar</button>
+                        <div class="g-recaptcha" data-sitekey="6LevBYgoAAAAAMr3deELRuWr6AAVkjkVATJ5uCrM
+                        "></div>
+                        
+                    </form>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.3852818149785!2d-46.533402623708064!3d-23.44656305738653!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef53ca122d93d%3A0xb9a398ec34cf3458!2sAv.%20Barber%20Greene%2C%201000%20-%20Jardim%20Santa%20Clara%2C%20Guarulhos%20-%20SP%2C%2007120-260!5e0!3m2!1spt-BR!2sbr!4v1700083682522!5m2!1spt-BR!2sbr"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                     <footer class="copyright" id="footer_content">
+                    <p>copyright © Vitor. <strong style="color: teal;">Site feito  por mim</strong> <i class="fa-solid fa-fire"></i></p>
+                </footer>
+                </div>
+               
+            </div>
+               <script src="script.js"></script>
+               <script src="particles.js"></script>
+               <script src="app.js"></script>
+            </body>
+            </html>
